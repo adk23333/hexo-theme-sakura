@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: hojun
+title: TSHMF
 subtitle:
-description: 好少年光芒万丈
+description: 变身嫁人小说吧推文博客
 keywords:
-author: hojun
+author: adk23333
 language: zh-cn
 timezone:
 
@@ -80,9 +80,7 @@ theme: Sakura
 deploy:
   type: git
   repo: 
-    # github: git@github.com:honjun/honjun.github.io.git
-    # github: https://github.com/honjun/honjun.github.io.git
-    coding: https://git.coding.net/hojun/hojun.git
+    github: git@github.com:adk23333/adk23333.github.io.git
   branch: master
 
 # backup
@@ -91,7 +89,6 @@ backup:
   message: backup my blog of https://yourname.github.io/
   repository:
     # github: https://github.com/honjun/honjun.github.io.git,backup
-    coding: https://git.coding.net/hojun/hojun.git,backup
 
 #RSS
 feed:
