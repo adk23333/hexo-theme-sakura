@@ -1,32 +1,32 @@
 ---
 layout: links
 title: links
-date: 2018-12-19 23:11:06
+date: 2022-12-12 23:24:06
 keywords: 友人帐
 description: 
 comments: true
-photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/links.jpg
+photos: https://s2.loli.net/2022/12/12/hawxIvBpc8UPKQl.jpg
 links:
-  - group: 个人项目
-    desc: 充分说明这家伙是条咸鱼 < (￣︶￣)>
+  - group: 开发计划
+    desc: 充分说明大家都是咸鱼 < (￣︶￣)>
     items:
-    - url: https://shino.cc/fgvf
+    - url: https://github.com/adk23333
       img: https://cloud.moezx.cc/Picture/svg/landscape/fields.svg
-      name: Google
-      desc: Google 镜像
-    - url: https://shino.cc/fgvf
+      name: Github
+      desc: Github 主页
+    - url: https://github.com/adk23333
       img: https://cloud.moezx.cc/Picture/svg/landscape/fields.svg
-      name: Google
-      desc: Google 镜像
+      name: Github
+      desc: Github 主页
   - group: 小伙伴们
-    desc: 欢迎交换友链 ꉂ(ˊᗜˋ)
+    desc: 欢迎交换加入我们 ꉂ(ˊᗜˋ)
     items:
-    - url: https://shino.cc/fgvf
+    - url: https://github.com/adk23333
       img: https://cloud.moezx.cc/Picture/svg/landscape/fields.svg
-      name: Google
-      desc: Google 镜像
-    - url: https://shino.cc/fgvf
+      name: Github
+      desc: Github 主页
+    - url: https://github.com/adk23333
       img: https://cloud.moezx.cc/Picture/svg/landscape/fields.svg
-      name: Google
-      desc: Google 镜像
+      name: Github
+      desc: Github 主页
 ---

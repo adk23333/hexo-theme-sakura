@@ -1,17 +1,17 @@
 # site name
-prefixName: 变嫁
-siteName: TSHMF
+prefixName: TSHMF
+siteName: 变嫁
 # favicon and site master avatar
-favicon: /images/favicon.ico
-avatar: /img/custom/avatar.jpg
-url: https://sakura.hojun.cn
-description: Live your life with passion! With some drive!
-cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
+favicon: /2022/12/12/ig46538xuMZSAhD.png
+avatar: /2022/12/12/aidWrcKlFTyx2UH.jpg
+url: https://adk23333.github.io/
+description: 为每一个热爱变嫁的人干杯！
+cdn: https://s2.loli.net
 pjax: 1
 # 1开启
 mathjax: 0
 
-notice: hexo-Sakura主题已经开源，目前正在开发中...
+notice: 站点更新中......
 lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
@@ -26,7 +26,6 @@ menus:
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
     书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
     番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
-    歌单: {path: /music/, fa: fa-headphones },
     图集: {path: /tags/图集/, fa: fa-photo }
   } }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
@@ -47,44 +46,31 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(1).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(2).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(3).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(4).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(5).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(6).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(7).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(8).jpg.webp
+  - https://s2.loli.net/2022/12/12/acS21jkmx6Ue5WF.webp
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
 
 # startdash url, title, desc img
 startdash: 
-  - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
-  - {url: http://space.bilibili.com/271849279, title: Bilibili, desc: 博主的b站视频, img: /img/startdash/bilibili.jpg}
-  - {url: /, title: hojun的万事屋, desc: 技术服务, img: /img/startdash/wangshiwu.jpg}
+  - {url: https://www.bilibili.com/, title: BiliBili, desc: 我们的B站号, img: /2022/12/12/we48MZhVGrk3t52.webp}
+  - {url: https://tieba.baidu.com/home/main?un=adk23333&id=tb.1.9f5a63a2.w1s__jfQF2ejxoCf1OCcmw?t=1533450011&fr=index, title: BaiduTieba, desc: 博主的贴吧个人主页, img: /2022/12/12/cMhpNAx6DKL4rHE.jpg}
+  - {url: https://jq.qq.com/?_wv=1027&k=gXwoukxn, title: 爱与正义的咸鱼少女团, desc: 变嫁同好交流群, img: /2022/12/12/XMzCFcKdoq7PmVb.jpg}
 
 
 
 # your site build time or founded date
-siteBuildingTime: 07/17/2018
+siteBuildingTime: 12/12/2022
 
 #social  url, img PC端配置
 social:
-  github: {url: http://github.com/honjun, img: /img/social/github.png}
-  sina: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/sina.png}
-  wangyiyun: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/wangyiyun.png}
-  zhihu: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png}
-  email: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/email.svg}
-  wechat: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
-  wechat2: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
+  github: {url: https://github.com/adk23333, img: /2022/12/14/T8ueMnROSBDIFih.png}
+  tieba: {url: https://tieba.baidu.com/f?kw=%E5%8F%98%E8%BA%AB%E5%AB%81%E4%BA%BA%E5%B0%8F%E8%AF%B4&fr=index, img: /2022/12/12/7f6H1theoLq8lNj.png}
 
 #social  url, img 移动端配置
 msocial:
-  github: {url: http://github.com/honjun, fa: fa-github, color: 333}
-  weibo: {url: http://weibo.com/mashirozx?is_all=1, fa: fa-weibo, color: dd4b39}
-  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+  github: {url: https://github.com/adk23333, fa: fa-github, color: 333}
+  tieba: {url: https://tieba.baidu.com/f?kw=%E5%8F%98%E8%BA%AB%E5%AB%81%E4%BA%BA%E5%B0%8F%E8%AF%B4&fr=index, img: /2022/12/12/7f6H1theoLq8lNj.png}
 
 donate:
   paypal: https://www.paypal.me/hojuncn
