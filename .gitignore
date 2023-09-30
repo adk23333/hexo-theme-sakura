@@ -4,4 +4,6 @@ db.json
 *.log
 node_modules/
 public/
+.idea/
 .deploy*/
+/pnpm-lock.yaml
