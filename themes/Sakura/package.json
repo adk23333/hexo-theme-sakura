@@ -4,8 +4,8 @@
   "description": "Simple three column theme for Hexo.Inspired by JianShu.com",
   "license": "MIT",
   "dependencies": {
-    "hexo-renderer-ejs": "^0.2.0",
-    "hexo-renderer-marked": "^0.2.11"
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.1.1"
   },
   "repository": {
     "type": "git",
