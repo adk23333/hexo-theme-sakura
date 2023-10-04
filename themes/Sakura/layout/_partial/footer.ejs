@@ -1,14 +1,3 @@
-<!-- <footer id="footer">
-  <% if (theme.sidebar === 'bottom'){ %>
-    <%- partial('_partial/sidebar') %>
-  <% } %>
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-      <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer> -->
 <footer id="colophon" class="site-footer" role="contentinfo">
   <div class="site-info">
     <div class="footertext">
@@ -41,14 +30,25 @@
 <script src="/js/botui.js"></script>
 <!-- 不蒜子 网页计数器 -->
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
 <script type="text/javascript">
 /* <![CDATA[ */
-if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-  var Poi = {"pjax":"<%- theme.pjax %>","movies":{"url": "<%- theme.movies.url %>","name":"<%- theme.movies.name%>","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
-} else {
-  var Poi = {"pjax":"<%- theme.pjax %>","movies":{"url": "<%- theme.movies.url %>","name":"<%- theme.movies.name%>","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
-}
+const Poi = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? {
+  "pjax": "<%- theme.pjax %>",
+  "movies": {"url": "<%- theme.movies.url %>", "name": "<%- theme.movies.name %>", "live": "close"},
+  "windowheight": "fixed",
+  "codelamp": "close",
+  "ajaxurl": "",
+  "order": "asc",
+  "formpostion": "bottom"
+} : {
+  "pjax": "<%- theme.pjax %>",
+  "movies": {"url": "<%- theme.movies.url %>", "name": "<%- theme.movies.name %>", "live": "open"},
+  "windowheight": "auto",
+  "codelamp": "close",
+  "ajaxurl": "",
+  "order": "asc",
+  "formpostion": "bottom"
+};
 /* ]]> */
 
 </script>
